@@ -1,9 +1,9 @@
 import React from "react";
 import RightCardContent from "./RightCardContent";
 
-const RightCard = () => {
+const RightCard = (props) => {
   return (
-   <RightCardContent />
+   <RightCardContent id={props.id} img={props.img} tag={props.tag} intro={props.intro} />
   );
 };
 
